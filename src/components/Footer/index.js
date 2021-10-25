@@ -5,6 +5,13 @@ import { FooterContainer, SocialIcon,
      SocialMedia, SocialMediaWrap, 
      WebsiteRights} from './FooterElements'
 
+
+//    FooterContainer is a div 
+//    SocialMedia is a section
+//    SocialMediaWrap is a div
+//    SocialLogo is a link which defines all the links of social media
+//    SocialIcon is a icon which is provided by react-icon
+//    All these are imported from FooterElement and implemented in Footor component.
 const Footer =()=>{
     return (
         <FooterContainer>
