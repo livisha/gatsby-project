@@ -1,7 +1,11 @@
-import styled from 'styled-components';
+import styled from 'styled-components'; // styled-components import from the react library
 import { DiScala } from 'react-icons/Di';
 import {Link} from 'gatsby';
 
+// NavbarElements.js - it is a styled component i.e. it is a library for React that allows 
+// as to use component-level styles in your applicaiton that are in JS and CSS.
+
+// CSS code is written between backticks when styling your components
 export const Nav = styled.nav`
 background : ${({active})=> active ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100% )"};
 height:80px;
