@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+// ButttonElement.js is a file for styling the buttons in a project containing the CSS styling for every button component.
+// className assigned is used for editing the buttons.
 export const Button = styled.button`
 border-radius:4px;
 background:${({primary})=>(primary ? "#FF4040" : "#0467FB")};
