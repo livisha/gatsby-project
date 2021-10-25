@@ -10,7 +10,11 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+// seo.js already created when the project is initialized with the necessary details using useStaticQuery for fetching.
+
 function Seo({ description, lang, meta, title }) {
+   // title, description, author of the project is defined using this file.
+  // Gatsby-config.js is used to fetch the data and use it by implementing the query.
   const { site } = useStaticQuery(
     graphql`
       query {
