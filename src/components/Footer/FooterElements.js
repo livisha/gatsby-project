@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import {Link} from 'gatsby';
 import { DiScala } from "react-icons/Di";
+
+// this is a file where we have used javascript and CSS for styling the components.
 export const FooterContainer = styled.div`
 background-color:#101522;
 display:flex;
