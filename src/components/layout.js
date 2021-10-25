@@ -3,6 +3,7 @@ import Footer from "./Footer"
 import "./layout.css"
 import Navbar from "./Navbar"
 
+//layout
 const Layout = ({ children }) => {
 
   return (
